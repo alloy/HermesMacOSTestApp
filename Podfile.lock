@@ -1,7 +1,9 @@
 PODS:
+  - Hermes/dtoa (0.5.0)
   - Hermes/jsi (0.5.0)
 
 DEPENDENCIES:
+  - Hermes/dtoa (from `/Users/eloy/Code/ReactNative/Hermes/src`)
   - Hermes/jsi (from `/Users/eloy/Code/ReactNative/Hermes/src`)
 
 EXTERNAL SOURCES:
@@ -9,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "/Users/eloy/Code/ReactNative/Hermes/src"
 
 SPEC CHECKSUMS:
-  Hermes: c107ea029ce0884a00bc1523edd40416e40ca839
+  Hermes: b94b5b30aa60b864be0a18c8b14e661a924f91e8
 
-PODFILE CHECKSUM: 3cd8a26a4001bb5434483a60b60a04322f53a85d
+PODFILE CHECKSUM: 5ebb73f073dc64e9eb4eb47665dd0e8b9039d33a
 
 COCOAPODS: 1.8.4
