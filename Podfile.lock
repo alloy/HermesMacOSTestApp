@@ -1,0 +1,16 @@
+PODS:
+  - Hermes/jsi (0.5.0)
+
+DEPENDENCIES:
+  - Hermes/jsi (from `/Users/eloy/Code/ReactNative/Hermes/src`)
+
+EXTERNAL SOURCES:
+  Hermes:
+    :path: "/Users/eloy/Code/ReactNative/Hermes/src"
+
+SPEC CHECKSUMS:
+  Hermes: 0ecfa3301392c4f4cf8550cf2f44c47d194ff061
+
+PODFILE CHECKSUM: 3cd8a26a4001bb5434483a60b60a04322f53a85d
+
+COCOAPODS: 1.8.4
