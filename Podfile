@@ -7,4 +7,5 @@ target 'HermesMacOSTestApp' do
 
   pod 'Hermes/jsi', :path => '/Users/eloy/Code/ReactNative/Hermes/src'
   pod 'Hermes/dtoa', :path => '/Users/eloy/Code/ReactNative/Hermes/src'
+  pod 'Hermes/LLVHDemangle', :path => '/Users/eloy/Code/ReactNative/Hermes/src'
 end
