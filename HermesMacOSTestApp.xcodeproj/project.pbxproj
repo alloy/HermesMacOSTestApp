@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		512B8FE624531F5500561220 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 512B8FE524531F5500561220 /* AppDelegate.m */; };
+		512B8FE624531F5500561220 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 512B8FE524531F5500561220 /* AppDelegate.mm */; };
 		512B8FE824531F5600561220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512B8FE724531F5600561220 /* Assets.xcassets */; };
 		512B8FEB24531F5600561220 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512B8FE924531F5600561220 /* MainMenu.xib */; };
 		512B8FEE24531F5600561220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 512B8FED24531F5600561220 /* main.m */; };
@@ -18,7 +18,7 @@
 		009B173B3D32ED5089CA659F /* Pods-HermesMacOSTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HermesMacOSTestApp.debug.xcconfig"; path = "Target Support Files/Pods-HermesMacOSTestApp/Pods-HermesMacOSTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		512B8FE124531F5500561220 /* HermesMacOSTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HermesMacOSTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		512B8FE424531F5500561220 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		512B8FE524531F5500561220 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		512B8FE524531F5500561220 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		512B8FE724531F5600561220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		512B8FEA24531F5600561220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		512B8FEC24531F5600561220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				512B8FE424531F5500561220 /* AppDelegate.h */,
-				512B8FE524531F5500561220 /* AppDelegate.m */,
+				512B8FE524531F5500561220 /* AppDelegate.mm */,
 				512B8FE724531F5600561220 /* Assets.xcassets */,
 				512B8FE924531F5600561220 /* MainMenu.xib */,
 				512B8FEC24531F5600561220 /* Info.plist */,
@@ -78,7 +78,6 @@
 				009B173B3D32ED5089CA659F /* Pods-HermesMacOSTestApp.debug.xcconfig */,
 				AF98B3EC19F41F1916B3DD2F /* Pods-HermesMacOSTestApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,7 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				512B8FEE24531F5600561220 /* main.m in Sources */,
-				512B8FE624531F5500561220 /* AppDelegate.m in Sources */,
+				512B8FE624531F5500561220 /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
