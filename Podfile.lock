@@ -2,15 +2,21 @@ PODS:
   - hermes (0.5.0)
 
 DEPENDENCIES:
-  - hermes (from `/Users/eloy/Code/ReactNative/Hermes/build`)
+  - hermes (from `https://github.com/alloy/hermes.git`, commit `d3e41ea5bcdbd920203fb815b49326072e507353`)
 
 EXTERNAL SOURCES:
   hermes:
-    :path: "/Users/eloy/Code/ReactNative/Hermes/build"
+    :commit: d3e41ea5bcdbd920203fb815b49326072e507353
+    :git: https://github.com/alloy/hermes.git
+
+CHECKOUT OPTIONS:
+  hermes:
+    :commit: d3e41ea5bcdbd920203fb815b49326072e507353
+    :git: https://github.com/alloy/hermes.git
 
 SPEC CHECKSUMS:
-  hermes: 33f4f2eebc1ad15e7ca958b95784d905eae19d8a
+  hermes: 6006485cda3526f76cb0ba806290711ffdc4c2a1
 
-PODFILE CHECKSUM: fa2cb05e58508648fa67fac2ffef89b717f93ccc
+PODFILE CHECKSUM: d5236813867d2c831b0441cc5fc32cdf7a22aedb
 
 COCOAPODS: 1.8.4

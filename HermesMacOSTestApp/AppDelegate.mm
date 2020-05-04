@@ -23,6 +23,7 @@ using namespace facebook;
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     auto jsiBuffer = std::make_shared<jsi::StringBuffer>("1 + 1");
     auto runtime = facebook::hermes::makeHermesRuntime();
+
     try {
         auto js = runtime->prepareJavaScript(jsiBuffer, "<eval>");
         auto result = runtime->evaluatePreparedJavaScript(js);

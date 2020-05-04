@@ -11,6 +11,7 @@
 		512B8FE824531F5600561220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512B8FE724531F5600561220 /* Assets.xcassets */; };
 		512B8FEB24531F5600561220 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512B8FE924531F5600561220 /* MainMenu.xib */; };
 		512B8FEE24531F5600561220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 512B8FED24531F5600561220 /* main.m */; };
+		518A6BDF245AF0530083CA7C /* index.hbc in Resources */ = {isa = PBXBuildFile; fileRef = 518A6BDE245AF0530083CA7C /* index.hbc */; };
 		612D61B499EC4236C4FBEE76 /* libPods-HermesMacOSTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97315F1399000D15AB53A0B1 /* libPods-HermesMacOSTestApp.a */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		512B8FEC24531F5600561220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		512B8FED24531F5600561220 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		512B8FEF24531F5600561220 /* HermesMacOSTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HermesMacOSTestApp.entitlements; sourceTree = "<group>"; };
+		518A6BDE245AF0530083CA7C /* index.hbc */ = {isa = PBXFileReference; lastKnownFileType = file; path = index.hbc; sourceTree = SOURCE_ROOT; };
 		97315F1399000D15AB53A0B1 /* libPods-HermesMacOSTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HermesMacOSTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF98B3EC19F41F1916B3DD2F /* Pods-HermesMacOSTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HermesMacOSTestApp.release.xcconfig"; path = "Target Support Files/Pods-HermesMacOSTestApp/Pods-HermesMacOSTestApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +63,7 @@
 		512B8FE324531F5500561220 /* HermesMacOSTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				518A6BDE245AF0530083CA7C /* index.hbc */,
 				512B8FE424531F5500561220 /* AppDelegate.h */,
 				512B8FE524531F5500561220 /* AppDelegate.mm */,
 				512B8FE724531F5600561220 /* Assets.xcassets */,
@@ -100,6 +103,7 @@
 				512B8FDD24531F5500561220 /* Sources */,
 				512B8FDE24531F5500561220 /* Frameworks */,
 				512B8FDF24531F5500561220 /* Resources */,
+				909BDECA1E0844BE8BA9B654 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +153,7 @@
 			files = (
 				512B8FE824531F5600561220 /* Assets.xcassets in Resources */,
 				512B8FEB24531F5600561220 /* MainMenu.xib in Resources */,
+				518A6BDF245AF0530083CA7C /* index.hbc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +180,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		909BDECA1E0844BE8BA9B654 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HermesMacOSTestApp/Pods-HermesMacOSTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HermesMacOSTestApp/Pods-HermesMacOSTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HermesMacOSTestApp/Pods-HermesMacOSTestApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
