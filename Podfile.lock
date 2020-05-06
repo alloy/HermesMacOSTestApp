@@ -2,21 +2,21 @@ PODS:
   - hermes (0.5.0)
 
 DEPENDENCIES:
-  - hermes (from `https://github.com/alloy/hermes.git`, commit `d3e41ea5bcdbd920203fb815b49326072e507353`)
+  - hermes (from `https://github.com/alloy/hermes.git`, commit `b6053ea8a6dad633516201a735b9f310769d3b32`)
 
 EXTERNAL SOURCES:
   hermes:
-    :commit: d3e41ea5bcdbd920203fb815b49326072e507353
+    :commit: b6053ea8a6dad633516201a735b9f310769d3b32
     :git: https://github.com/alloy/hermes.git
 
 CHECKOUT OPTIONS:
   hermes:
-    :commit: d3e41ea5bcdbd920203fb815b49326072e507353
+    :commit: b6053ea8a6dad633516201a735b9f310769d3b32
     :git: https://github.com/alloy/hermes.git
 
 SPEC CHECKSUMS:
-  hermes: 6006485cda3526f76cb0ba806290711ffdc4c2a1
+  hermes: 75b07e8ff09b947d13d2982048db035c0d982890
 
-PODFILE CHECKSUM: d5236813867d2c831b0441cc5fc32cdf7a22aedb
+PODFILE CHECKSUM: 81924a0a86944260f6f47a9431b1a1e39c962095
 
 COCOAPODS: 1.8.4
